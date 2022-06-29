@@ -11,9 +11,10 @@ This theme was inspired by [MinimalCord](https://github.com/DiscordStyles/Minima
 ## Setup
 To be able to use the Decay Discord Theme, you need to either have [BetterDisocrd](https://betterdiscord.app) or some Discord plugin that can read and compile custom CSS.
 
-### Credits
-[Zelk](https://betterdiscord.app/theme/Zelk) - Inspired the desgin for the showcase images!
+Just download the CSS file and move it to the themes folder (if using BD) or at the required location for any kind of plugin you use.
 
-<h5> Just download the CSS file and move it to the themes folder (if using BD) or at the required location for any kind of plugin you use. </h5>
+### Credits
+##### [Zelk](https://betterdiscord.app/theme/Zelk) - Inspired the desgin for the showcase images!
+
 
 > Make sure to leave a comment if you notice any issues or have an idea for improvement!... aaannd I believe you know what to do?! **SMASH THAT STAR**
