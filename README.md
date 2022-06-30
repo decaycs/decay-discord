@@ -16,11 +16,11 @@ To be able to use the Decay Discord Theme, you need to have one of the "projects
 | BetterDisocrd | [BD](https://betterdiscord.app/) |
 | PowerCord | [PC](https://powercord.dev/) |
 
-After you setup your prefered "project", all you have to do is:
+After you set up your prefered "project", all you have to do is:
 `cp /path/to/decay-discord/Decay.theme.css /path/to/project/themes_directory`
 
 ## Origin
-This theme was inspired and is based on [MinimalCord](https://github.com/DiscordStyles/MinimalCord/) but a modified version of it, to match the needs of an eye at peace and match the Decay structure.
+This theme was inspired and is based on [MinimalCord](https://github.com/DiscordStyles/MinimalCord/) but a modified version of it, to meet the needs of an eye at peace and match the Decay structure.
 
 ## Table of Credits
 | Source | Motivated |
