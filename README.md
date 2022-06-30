@@ -29,4 +29,23 @@ This theme was inspired and is based on [MinimalCord](https://github.com/Discord
 ##### [Zelk](https://betterdiscord.app/theme/Zelk) - Inspired the desgin for the showcase images!
 
 
+# Real use of Decay Discord theme
+
+<details>
+  <summary>Dark Theme</summary>
+  
+  <img src="./assets/Dark_Home.png" align="center">
+  <img src="./assets/Dark_Chat.png" align="center">
+  <img src="./assets/Dark.png" align="center">
+</details>
+
+<details>
+  <summary>Light Theme</summary>
+  
+  <img src="./assets/Light_Home.png" align="center">
+  <img src="./assets/Light_Chat.png" align="center">
+  <img src="./assets/Light.png" align="center">
+</details>
+
+
 > Make sure to leave a comment if you notice any issues or have an idea for improvement!... aaannd I believe you know what to do?! **SMASH THAT STAR**
