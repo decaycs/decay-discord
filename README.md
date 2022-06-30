@@ -1,4 +1,4 @@
-# :last_quarter_moon: <samp>Decay port for Discord</samp>
+# :last_quarter_moon: <h1 align="center">Decay port for Discord</h1>
 <img src="./assets/Decay_Discord.png" align="center">
 
 Makes Discord comfortable for any type of users, the cavemans and those that love going out and enjoy the sun!
@@ -26,10 +26,7 @@ This theme was inspired and is based on [MinimalCord](https://github.com/Discord
 | [MinimalCord](https://betterdiscord.app/theme/MinimalCord) | The Decay Discord Theme itself |
 | [Zelk](https://betterdiscord.app/theme/Zelk) | The Design of the [Showcase Images](#Decay-port-for-Discord) |
 
-##### [Zelk](https://betterdiscord.app/theme/Zelk) - Inspired the desgin for the showcase images!
-
-
-# Real use of Decay Discord theme
+### Real use of Decay Discord theme
 
 <details>
   <summary>Dark Theme</summary>
