@@ -5,7 +5,7 @@ Makes Discord comfortable for any type of users, the cavemans and those that lov
 
 ## Setup
 
-`git clone https://github.com/decaycs/decay-discord.git`
+```git clone https://github.com/decaycs/decay-discord.git```
 
 To be able to use the Decay Discord Theme, you need to have one of the "projects" below:
 
@@ -15,7 +15,7 @@ To be able to use the Decay Discord Theme, you need to have one of the "projects
 | PowerCord | [PC](https://powercord.dev/) |
 
 After you setup your prefered "project", all you have to do is:
-`cp /path/to/decay-discord/Decay.theme.css /path/to/projects/themes_directory`
+`cp /path/to/decay-discord/Decay.theme.css /path/to/project/themes_directory`
 
 ## Origin
 This theme was inspired and is based on [MinimalCord](https://github.com/DiscordStyles/MinimalCord/) but a modified version of it, to match the needs of an eye at peace and match the Decay structure.
