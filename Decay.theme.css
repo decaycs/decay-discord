@@ -748,12 +748,19 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   margin: 0 0 0 10px;
   border-radius: var(--border-radius);
 }
+
+.theme-dark #app-mount .wrapper-NhbLHG.typeThread-2Aqh6X .content-1gYQeQ {
+  background: var(--background-light);
+}
 .theme-light #app-mount .wrapper-NhbLHG.typeThread-2Aqh6X .content-1gYQeQ {
   background: var(--background-dark);
 }
 #app-mount .spine-29OFwR {
   z-index: 1;
   color: var(--background-light);
+}
+.theme-dark #app-mount .spine-29OFwR {
+  color: var(--background-alt);
 }
 
 /* Thread Panel */
@@ -1673,4 +1680,9 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 /* -- Login Page -- */
 #app-mount .wrapper-1f5byN .authBox-1HR6Ha {
   background: var(--background) !important;
+}
+
+/* Auto Complete */ 
+#app-mount .autocompleteRowVerticalSmall-2rVED0 .base-2v-uc0:hover {
+  background: var(--background-alt);
 }
