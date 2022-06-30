@@ -1,19 +1,31 @@
-# :diamond_shape_with_a_dot_inside: <samp>DISCORD</samp>
-<h1 align="center">Decay port for Discord</h1>
-
+# :last_quarter_moon: <samp>Decay port for Discord</samp>
 <img src="./assets/Decay_Discord.png" align="center">
 
-Makes Discord Comfortable for any type of users, darkness lovers and those that love going out and enjoy the sun.
-
-## Origin
-This theme was inspired by [MinimalCord](https://github.com/DiscordStyles/MinimalCord/).
+Makes Discord comfortable for any type of users, the cavemans and those that love going out and enjoy the sun!
 
 ## Setup
-To be able to use the Decay Discord Theme, you need to either have [BetterDisocrd](https://betterdiscord.app) or some Discord plugin that can read and compile custom CSS.
 
-Just download the CSS file and move it to the themes folder (if using BD) or at the required location for any kind of plugin you use.
+`git clone https://github.com/decaycs/decay-discord.git`
 
-### Credits
+To be able to use the Decay Discord Theme, you need to have one of the "projects" below:
+
+| Project | Source |
+| ----------- | ----------- |
+| BetterDisocrd | [BD](https://betterdiscord.app/) |
+| PowerCord | [PC](https://powercord.dev/) |
+
+After you setup your prefered "project", all you have to do is:
+`cp /path/to/decay-discord/Decay.theme.css /path/to/projects/themes_directory`
+
+## Origin
+This theme was inspired and is based on [MinimalCord](https://github.com/DiscordStyles/MinimalCord/) but a modified version of it, to match the needs of an eye at peace and match the Decay structure.
+
+## Table of Credits
+| Source | Motivated |
+| ----------- | ----------- |
+| [MinimalCord](https://betterdiscord.app/theme/MinimalCord) | The Decay Discord Theme itself |
+| [Zelk](https://betterdiscord.app/theme/Zelk) | The Design of the [Showcase Images](#Decay-port-for-Discord) |
+
 ##### [Zelk](https://betterdiscord.app/theme/Zelk) - Inspired the desgin for the showcase images!
 
 
