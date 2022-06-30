@@ -5,7 +5,9 @@ Makes Discord comfortable for any type of users, the cavemans and those that lov
 
 ## Setup
 
-```git clone https://github.com/decaycs/decay-discord.git```
+```sh
+git clone https://github.com/decaycs/decay-discord.git
+```
 
 To be able to use the Decay Discord Theme, you need to have one of the "projects" below:
 
