@@ -572,6 +572,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .embedFull-1HGV2S {
   background: var(--background);
 }
+
 #app-mount .attachment-1PZZB2,
 #app-mount .wrapperAudio-1Bzv_Z {
   background: var(--background);
@@ -752,6 +753,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .container-3XgAHv {
   background: var(--background-light);
   border-radius: var(--border-radius);
+  min-width: 35% !important;
 }
 #app-mount .container-3XgAHv .chat-1-OBC7, .chat-1rZYgu {
   background: var(--background-alt);
