@@ -1685,6 +1685,9 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 
 /* Auto Complete */
+#app-mount .autocompleteRow-14iwvH[aria-selected="true"] .base-2v-uc0 {
+  background: var(--background-alt);
+}
 #app-mount .autocompleteRowVerticalSmall-2rVED0 .base-2v-uc0:hover {
   background: var(--background-alt);
 }
