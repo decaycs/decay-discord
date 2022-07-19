@@ -295,6 +295,30 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   color: var(--text-normal);
 }
 
+/* - Server Settings */
+#app-mount .sidebarRegion-1VBisG{
+  background: var(--background-dark);
+}
+
+#app-mount .contentRegion-3HkfJJ {
+  background: var(--background-alt);
+  color: var(--text-normal);
+}
+
+#app-mount .select-1Ia3hD,
+#app-mount .radioBar-3w9XY-,
+#app-mount .imageUploaderInner-IIRaFr,
+#app-mount .auditLog-1NVAY0,
+#app-mount .analyticsCard-2fnrVG,
+#app-mount .developerPortalCtaWrapper-2PniQs,
+#app-mount .tierBody-1d3UiS {
+  background: var(--background-light);
+}
+
+#app-mount .tierHeaderContent-2SPBAA {
+  background: var(--background-dark);
+}
+
 /* Muted Chats */
 #app-mount .container-32HW5s .muted-3KGUWb .layout-1LjVue, .container-32HW5s .muted-3KGUWb .layout-1LjVue .content-66wMin{
   background: var(--background-light);
@@ -584,6 +608,11 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background-dark);
   border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
+
+#app-mount .layer-1Ixpg3 .focusLock-2tveLW .zoomedCarouselModalRoot-1tAxiu {
+  background: transparent;
+}
+
 #app-mount .footer-GXWBBp {
   background: var(--background);
   border: none;
@@ -726,6 +755,15 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   border-radius: var(--border-radius);
 }
 
+#app-mount .clipContainer-31nYlH {
+  background: var(--background-alt);
+}
+
+#app-mount .replyBar-1oi75v {
+  background: var(--background-light);
+  border: none;
+}
+
 /* -- Threads -- */
 /* Threads on Sidebar */
 #app-mount .wrapper-NhbLHG.typeThread-2Aqh6X .content-1gYQeQ {
@@ -775,6 +813,11 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .chat-3JZdy8::before {
   content: none;
+}
+
+#app-mount .threadSuggestionBar-3ExSyc {
+  background: var(--background-alt);
+  padding-bottom: 5px;
 }
 
 /* -- Server Members -- */
@@ -1010,13 +1053,15 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   box-shadow: var(--box-shadow);
   z-index: 2;
 }
-#app-mount .messageGroupWrapper-1jf_7C {
-  background: var(--background-alt);
-  border: none;
-}
+/* #app-mount .messageGroupWrapper-1jf_7C { */
+/*   background: var(--background-alt); */
+/*   border: none; */
+/* } */
+#app-mount .messageGroupWrapper-1jf_7C,
 #app-mount .messageGroupCozy-3v_RqN {
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: -4px;
+  padding-top: 12px;
+  background: var(--background-alt);
 }
 
 #app-mount .container-iA3Qrz {
@@ -1711,4 +1756,129 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .message-G6O-Wv .cozy-VmLDNB {
   margin: 0 !important;
+}
+
+#app-mount .container-2AOBgv,
+#app-mount .container-2Hi7Km,
+#app-mount .container-xwOzwi,
+#app-mount .card-3x20HF {
+  background-color: var(--background-light);
+  border: none;
+  box-shadow: var(--box-shadow);
+}
+
+#app-mount .icon-2IDTxf {
+  border-top: 4px solid var(--background-light);
+  border-right: 4px solid var(--background-light);
+  border-left: 4px solid var(--background-light);
+}
+
+#app-mount .container-3HMTms {
+  background-color: var(--background-alt);
+  border: none;
+}
+
+#app-mount .perksModal-CLcR1c {
+  background-image: url(/assets/a49aa0af67106dfc5fed4d6ebfa011c9.svg);
+  background-color: var(--background-alt);
+}
+
+#app-mount .ctaBar-Nhk8yY {
+  background-image: url(/assets/94ff6fdc535b6ecb7b1bc54f2dd56a10.svg);
+  background-color: var(--background-light);
+}
+
+#app-mount .tierHeader-wgo0w_,
+#app-mount .barBackground-unEPDT {
+  background: var(--background-dark);
+}
+
+#app-mount .tierBody-3ju-rc,
+#app-mount .perk-19D_HN,
+#app-mount .tierMarkerBackground-G8FoN4 {
+  background: var(--background-light);
+}
+
+
+/* User Settings */
+#app-mount .sidebarRegion-1VBisG,
+#app-mount .sidebarRegionScroller-FXiQOh{
+  background: var(--background-dark) !important;
+}
+
+#app-mount .contentRegionScroller-2_GT_N {
+  background: var(--background-alt) !important;
+}
+
+#app-mount .userInfo-regn9W,
+#app-mount .accountProfileCard-lbN7n-,
+#app-mount .profileBannerPreview-3mLIdO,
+#app-mount .connectionHeader-Ixbb1s,
+#app-mount .cameraWrapper-3a7Ngv {
+  background: var(--background-dark);
+}
+
+#app-mount .background-3d_SjE,
+#app-mount .fieldList-in8WkP,
+#app-mount .connectionOptionsWrapper-3aVWcp,
+#app-mount .container-1zDvAE,
+#app-mount .feature-2IUcBI,
+#app-mount .card-2xlCYc,
+#app-mount .card-16VQ8C,
+#app-mount .container-1zDvAE,
+#app-mount .previewMessage-2g_aBv {
+  background: var(--background-light);
+}
+
+#app-mount .container-1zDvAE {
+  padding: 10px;
+}
+
+#app-mount div.marginBottom40-fvAlAV:not(.divider-_0um2u),
+#app-mount div.authedApp-8q3NA9,
+#app-mount .accountList-Wii_T5 {
+  background: var(--background-light) !important;
+}
+
+#app-mount .background-3d_SjE {
+  margin-top: 25px;
+}
+
+#app-mount .textAreaWithoutAttachmentButton-1as0NS {
+  padding-left: 15px;
+}
+
+#app-mount .formNotice-2nS8ey {
+  padding: 20px;
+}
+
+/* Pinned Messages */
+#app-mount .footer-5ji8u1 {
+  background: var(--background-alt);
+}
+
+/* Inbox */
+#app-mount .scroller-145h9c {
+  background: var(--background-alt);
+}
+
+#app-mount .channelHeader-DFRX8q {
+  background: var(--background-dark);
+}
+
+#app-mount .messages-23can0 {
+  background: var(--background-light);
+}
+
+/* Students Hubs */
+#app-mount .scroller-RfJjkV {
+  background: var(--background);
+}
+
+#app-mount .scroller-RfJjkV .container-1wv6C6 {
+  background: var(--background-alt);
+}
+
+#app-mount .footerDescription-3D1fe9 {
+  padding-bottom: 50px;
 }
