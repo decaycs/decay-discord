@@ -733,10 +733,14 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .cozy-VmLDNB .repliedMessage-3Z6XBG:before {
   border-color: var(--text-muted);
 }
+#app-mount .cozy-VmLDNB .repliedTextPreview-1bvxun {
+  margin: 2px;
+  padding: 2px 5px;
+}
 #app-mount .cozy-VmLDNB .repliedTextPreview-1bvxun .messageContent-2t3eCI {
-  padding: 3.5px 5px 3.5px 5px;
-  margin: 2px 0 2px 0;
-  border-radius: var(--border-radius);
+  padding: 0 5px 0 5px;
+  margin: 0 5px;
+  /* border-radius: var(--border-radius); */
 }
 #app-mount .cozy-VmLDNB .repliedTextPreview-1bvxun .messageContent-2t3eCI::after {
   left: 0;
@@ -825,12 +829,20 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .members-3WRCEx,
 #app-mount .members-3WRCEx > div {
   background: transparent;
+  width: 250px;
 }
 #app-mount .member-2gU6Ar .botTagRegular-kpctgU {
   background: rgba(var(--accent), 1);
 }
+
+#app-mount .member-2gU6Ar {
+  background-color: var(--background-alt);
+  margin: 5px 0 5px 5px;
+  padding-left: 5px;
+}
+
 #app-mount .member-2gU6Ar:hover .layout-1qmrhw {
-  background: var(--background-alt);
+  background: var(--background-light);
 }
 #app-mount .member-2gU6Ar:active .layout-1qmrhw {
   background: var(--background-light);
