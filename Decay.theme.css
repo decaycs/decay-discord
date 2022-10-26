@@ -76,8 +76,8 @@ html.theme-light .force-theme.theme-light {
 
 /* -- Variables for Dark Theme -- */
 .theme-dark,
-html.theme-dark #app-mount .theme-light .root-1gCeng,
-html.theme-dark .force-theme.theme-light {
+html.theme-dark #app-mount .theme-dark .root-1gCeng,
+html.theme-dark .force-theme.theme-dark {
   --dark-bg-h: var(--dark-bg-hue, 218);
   --dark-bg-s: var(--dark-bg-saturation, 15%);
   --dark-bg-l: var(--dark-bg-lightness, 11%);
@@ -1893,4 +1893,82 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 
 #app-mount .footerDescription-3D1fe9 {
   padding-bottom: 50px;
+}
+
+/* --- Forums --- */
+/* Background*/
+#app-mount .list-3FIpnh {
+  background-color: var(--background);
+}
+
+/* Post */
+#app-mount .list-3FIpnh .container-2qVG6q {
+  background-color: var(--background-light);
+}
+
+/* Text */
+#app-mount .list-3FIpnh .container-2qVG6q .body-hCVwsC .messageContent-1SOr75 {
+  color: var(--text-normal) !important;
+}
+
+/* Title and Author */
+.headerText-3MQ6n4, .username-u-ebrn:not([style]) {
+  color: var(--text-focus) !important;
+}
+
+.header-1Uy0p6 {
+  background-color: var(--background-light) !important;
+}
+ 
+#app-mount .list-3FIpnh .mainCard-3KBsBI .container-JhuCwn, .collapsed-23aTv6 {
+  background-color: var(--background-light) !important;
+  border-radius: 12px;
+}
+
+#app-mount .list-3FIpnh .mainCard-3KBsBI .container-JhuCwn .collapsed-23aTv6:active {
+  background-color: var(--background-light) !important;
+  border-radius: 12px 12px 0 0;
+}
+
+#app-mount .list-3FIpnh .mainCard-3KBsBI .textArea-3WXAeD {
+  background-color: var(--background-light) !important;
+  border: none;
+}
+
+.matchingPostsRow-2IiEQ1 {
+  background-color: var(--background-dark) !important;
+}
+
+/* -- Muted Posts -- */
+
+/* Title */
+.headerText-3MQ6n4[style*="color: var(--text-muted)"], .username-u-ebrn:not([style]), 
+#app-mount .list-3FIpnh .container-2qVG6q .body-hCVwsC .text-sm-semibold-3TWn25[style*="color: var(--text-muted)"] .messageContent-1SOr75 {
+  color: rgba(149, 163, 175, 0.75) !important;
+}
+
+/* Author */
+.message-1zs6Od span[class*="hasUnreads-3kKLnS"] .username-u-ebrn:not([style]) {
+  color: var(--text-focus) !important;
+}
+
+/* -- Post thread -- */
+/* Background */
+.chat-25x62K .chatContent-3KubbW {
+  background-color: var(--background) !important;
+}
+/* Message */
+.chat-25x62K .chatContent-3KubbW .messagesWrapper-RpOMA3 .message-2CShn3 { 
+  background-color: var(--background-light) !important;
+  border-radius: var(--message-border-radius, var(--border-radius)) !important;
+}
+
+/* Post Container Background and Divider Background */
+.chat-25x62K .chatContent-3KubbW .messagesWrapper-RpOMA3 .container-3YcgdM,
+.chat-25x62K .chatContent-3KubbW .messagesWrapper-RpOMA3 .divider-AZrXIA {
+  background-color: var(--background-alt) !important;
+}
+/* Post Container (React, Follow...) */
+.chat-25x62K .chatContent-3KubbW .messagesWrapper-RpOMA3 .container-3YcgdM {
+  border-radius: var(--border-radius) var(--border-radius) 0 0 !important;
 }
