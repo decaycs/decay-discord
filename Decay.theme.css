@@ -1972,3 +1972,14 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 .chat-25x62K .chatContent-3KubbW .messagesWrapper-RpOMA3 .container-3YcgdM {
   border-radius: var(--border-radius) var(--border-radius) 0 0 !important;
 }
+
+/* Fix Sidebar and Friends searchbar colors */
+#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div > nav > div.searchBar-3TnChZ > button,
+#online-tab > div.searchBar-2aylmZ.container-2oNtJn.medium-2NClDM > div {
+  background-color: var(--background-light);
+  color: var(--text-normal) !important;
+}
+
+#online-tab > div.searchBar-2aylmZ.container-2oNtJn.medium-2NClDM {
+  margin: 25px 25px 15px 20px;
+}
